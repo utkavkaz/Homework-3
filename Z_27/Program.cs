@@ -19,7 +19,7 @@ int Sum(int num)
 }
 try
 {
-    Console.Write("Введие число: ");
+    Console.Write("Введите число: ");
     int num = Convert.ToInt32(Console.ReadLine());
 
     if (num < 0) Console.WriteLine("Введите целое положительное число");
